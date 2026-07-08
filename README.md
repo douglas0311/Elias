@@ -18,23 +18,20 @@ Engineering Companion is the result of that idea.
 
 ## The Problem
 
-Modern AI assistants are excellent at executing tasks.
+Most AI assistants are designed to answer questions as quickly as possible.
 
-They summarize logs.
+Engineering rarely works that way.
 
-Generate infrastructure.
+Experienced engineers understand that the first answer is rarely the best answer.
 
-Analyze code.
+Instead of immediately searching for solutions, they begin by reducing uncertainty.
 
-Write documentation.
+They ask questions that progressively narrow the problem space until only the most probable causes remain.
 
-But engineering has never been about executing tasks.
+Only then do they generate hypotheses.
 
-Engineering is about understanding problems before proposing solutions.
+Engineering Companion was created to reproduce that way of thinking.
 
-Experienced engineers don't start with answers.
-
-They start with questions.
 
 ---
 
@@ -44,18 +41,23 @@ Engineering Companion is not another chatbot.
 
 It is not another automation tool.
 
-It is not another AI assistant.
-
-It is an engineering companion.
+It is an engineering thinking companion.
 
 Its purpose is not to replace engineering judgment.
 
-Its purpose is to improve it.
+Its purpose is to strengthen it.
 
-Instead of jumping directly to solutions, Engineering Companion collaborates with engineers to understand problems, validate hypotheses and improve decision making.
+Instead of immediately suggesting solutions, Engineering Companion first reduces uncertainty by asking high-value diagnostic questions.
+
+Only after sufficient context has been collected does reasoning begin.
+
+Because better decisions start with better questions.
 
 ---
 
+## Engineering Workflow
+
+```
 ## Engineering Workflow
 
 ```
@@ -63,11 +65,19 @@ Incident
 
 ↓
 
-Context Collection
+Incident Classification
 
 ↓
 
-Questions
+Context Discovery
+
+↓
+
+Reduce Uncertainty
+
+↓
+
+Context Built
 
 ↓
 
@@ -98,6 +108,13 @@ Learning
 Knowledge Base
 ```
 
+### Context Discovery Principles
+
+- Never generate hypotheses before enough context exists.
+- Every question should reduce uncertainty.
+- Prioritize questions that reduce the search space the most.
+- Stop asking questions when additional questions no longer provide meaningful information.```
+
 Every incident should make the next investigation faster.
 
 Every solved problem should become organizational knowledge.
@@ -120,19 +137,17 @@ Instead of memorizing commands, engineers learn how to think.
 
 ## Junior vs Senior
 
-A junior engineer often starts with commands.
+Junior engineers often start by looking for answers.
 
-A senior engineer starts with questions.
+Senior engineers start by reducing uncertainty.
+
+They understand that the quality of a decision depends on the quality of the context collected beforehand.
 
 Commands can be memorized.
 
-Questions are developed through experience.
+Reasoning is developed through experience.
 
-Engineering Companion helps bridge that gap.
-
-For junior engineers it teaches structured troubleshooting.
-
-For senior engineers it becomes a collaborative thinking partner.
+Engineering Companion helps bridge that gap by teaching engineers how to ask better questions before searching for answers.
 
 ---
 
