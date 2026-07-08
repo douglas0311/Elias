@@ -17,9 +17,8 @@ Incident Classification
 
 Context Discovery
 
-↓
-
-Questions
+  Rule: 
+  Every question should reduce uncertainty.
 
 ↓
 
