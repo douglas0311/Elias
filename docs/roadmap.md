@@ -10,12 +10,18 @@ Completed
 
 ---
 
-## Milestone 2 - Context Collection
+## Milestone 2 - Context Discovery
 
-Goal:
-Elias can gather all the information required before starting an investigation.
+Goal
 
-Status:
+Elias discovers enough context before reasoning begins.
+- Performs structured questioning.
+- Adapts questions based on previous answers.
+- Avoids generating premature hypotheses.
+- Produces sufficient context before reasoning begins.
+
+Status
+
 In Progress
 
 ---
