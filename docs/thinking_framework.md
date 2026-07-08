@@ -11,6 +11,9 @@ The reasoning process follows this sequence.
 Incident
 
 ↓
+Incident Classification
+
+↓
 
 Context Discovery
 
