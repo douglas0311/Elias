@@ -14,7 +14,7 @@ Completed
 
 Goal
 
-Elias discovers enough context before reasoning begins.
+Elias discovers context dynamically.
 - Performs structured questioning.
 - Adapts questions based on previous answers.
 - Avoids generating premature hypotheses.
@@ -29,7 +29,7 @@ In Progress
 ## Milestone 3 - Reasoning Engine
 
 Goal:
-Elias can generate hypotheses based on collected evidence.
+Elias generates multiple hypotheses based on the context collected.
 
 Status:
 Pending
