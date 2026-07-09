@@ -15,6 +15,18 @@ His answer completely changed the way I think about engineering.
 Engineering Companion is the result of that idea.
 
 ---
+## Our Core Belief
+
+Engineering is not the process of finding answers.
+
+Engineering is the process of reducing uncertainty.
+
+The best engineers are not the ones who know the most commands.
+
+They are the ones who know which question to ask next.
+
+Engineering Companion exists to preserve that way of thinking and make it accessible to every engineer.
+--
 
 ## The Problem
 
@@ -57,10 +69,7 @@ Because better decisions start with better questions.
 
 ## Engineering Workflow
 
-```
-## Engineering Workflow
-
-```
+---
 Incident
 
 ↓
@@ -106,7 +115,7 @@ Learning
 ↓
 
 Knowledge Base
-```
+---
 
 ### Context Discovery Principles
 
@@ -134,6 +143,22 @@ Instead of replacing experience, it amplifies it.
 Instead of memorizing commands, engineers learn how to think.
 
 ---
+## What Makes Engineering Companion Different?
+
+Most AI assistants optimize for speed.
+
+Engineering Companion optimizes for reasoning.
+
+It does not attempt to provide the fastest answer.
+
+It attempts to guide the engineer toward the most reliable decision.
+
+Every question has a purpose.
+
+Every answer changes the investigation.
+
+Every investigation should reduce uncertainty until a confident decision can be made.
+--
 
 ## Junior vs Senior
 
