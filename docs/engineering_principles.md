@@ -24,17 +24,59 @@ Separate facts from hypotheses.
 
 Facts are observed.
 
-Hypotheses must be validated.
+Hypotheses are created.
+
+Hypotheses must always be validated.
 
 ---
 
 ## Principle 5
 
-Every hypothesis deserves validation before implementation.
+Never generate hypotheses before sufficient context exists.
+
+Reasoning begins only after uncertainty has been reduced.
 
 ---
 
 ## Principle 6
+
+Every question should reduce uncertainty.
+
+Questions are not asked to collect information.
+
+They are asked to reduce the search space.
+
+---
+
+## Principle 7
+
+Prioritize questions with the highest diagnostic value.
+
+Not every question provides the same value.
+
+The next question should maximize information gain.
+
+---
+
+## Principle 8
+
+Every answer changes the investigation.
+
+Investigations are adaptive.
+
+Questions should evolve according to the current context.
+
+---
+
+## Principle 9
+
+Stop asking questions when additional questions no longer produce meaningful information.
+
+More questions do not always produce better decisions.
+
+---
+
+## Principle 10
 
 Every implementation requires monitoring.
 
@@ -44,7 +86,7 @@ Monitoring confirms whether the decision was correct.
 
 ---
 
-## Principle 7
+## Principle 11
 
 Every incident must leave knowledge behind.
 
@@ -52,7 +94,15 @@ Today's incident should reduce tomorrow's investigation time.
 
 ---
 
-## Principle 8
+## Principle 12
+
+Knowledge should remain after the engineer is gone.
+
+The greatest contribution of a senior engineer is reducing the learning curve for the next engineer.
+
+---
+
+## Principle 13
 
 AI should augment engineers, not replace them.
 
@@ -60,17 +110,8 @@ Engineering Companion automates repetitive work so engineers can focus on reason
 
 ---
 
-## Principle 9
-
-Context creates better decisions.
-
-An AI without context is just a bot answering questions.
-
----
-
-## Principle 10
+## Principle 14
 
 The goal is not solving incidents.
 
 The goal is improving engineering decisions.
-
