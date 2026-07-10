@@ -26,6 +26,10 @@ Context Built
 
 ↓
 
+Reasoning
+
+↓
+
 Hypotheses
 
 ↓
@@ -50,8 +54,13 @@ Learning
 
 ↓
 
-Knowledge Base
+Root Cause Analysis
+↓
+Knowledge Extraction
 
+↓
+
+Knowledge Base
 ---
 
 ## Context Discovery Principles
