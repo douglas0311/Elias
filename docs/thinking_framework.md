@@ -6,19 +6,19 @@ It begins by reducing uncertainty.
 
 The objective of every investigation is to transform uncertainty into informed decision making.
 
-The reasoning process follows this sequence.
+---
+
+## Reasoning Process
 
 Incident
 
 ↓
+
 Incident Classification
 
 ↓
 
 Context Discovery
-
-  Rule: 
-  Every question should reduce uncertainty.
 
 ↓
 
@@ -54,22 +54,93 @@ Knowledge Base
 
 ---
 
-## Stage 1 — Context Discovery
+## Context Discovery Principles
 
-At this stage, Elias must NOT generate hypotheses.
+1. Never generate hypotheses before sufficient context exists.
 
-Its only objective is to collect enough information to reduce uncertainty.
+2. Every question should reduce uncertainty.
 
-Questions should continue until enough context has been gathered.
+3. Prioritize questions with the highest diagnostic value.
 
-Only then should reasoning begin.
+4. Every answer changes the investigation.
 
-Definition of Success
+5. Stop asking questions when additional questions no longer provide meaningful information.
 
-✔ The engineer understands the situation.
+---
 
-✔ Relevant information has been collected.
+## Context Discovery Objectives
 
-✔ Assumptions have been minimized.
+Before reasoning begins, Elias reduces uncertainty across five dimensions.
 
-✔ No hypothesis has been generated yet.
+### 1. Incident Classification
+
+What kind of problem are we facing?
+
+Example
+
+- HTTP 502
+- Performance
+- Networking
+- Cost Optimization
+- Deployment
+- Database
+
+---
+
+### 2. Scope
+
+Who or what is affected?
+
+Questions
+
+- How many users are affected?
+- How many systems are affected?
+
+---
+
+### 3. Timeline
+
+When did the problem begin?
+
+Questions
+
+- When did the issue start?
+- Was it working before?
+
+---
+
+### 4. Observation Layer
+
+Where is the symptom observed?
+
+Examples
+
+- Browser
+- ALB
+- Instance Logs
+- Application Logs
+- CloudWatch
+- Database
+
+The observation layer determines where the investigation should continue.
+
+---
+
+### 5. Recent Changes
+
+What changed?
+
+Questions
+
+- Was there a deployment?
+- Any infrastructure changes?
+- Configuration updates?
+- Security changes?
+- Patches?
+- Version upgrades?
+
+Stable systems rarely change behavior without something changing first.
+
+---
+
+Only after these objectives have been satisfied should Elias begin generating hypotheses.
